@@ -1,11 +1,9 @@
 import { createRouter, createWebHashHistory } from "vue-router";
+import routes from "./route";
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes: [
-    { path: "/", component: () => import("@/views/index.vue") },
-    { path: "/login", component: () => import("@/views/login.vue") },
-  ],
+  routes,
 });
 
 export default router;

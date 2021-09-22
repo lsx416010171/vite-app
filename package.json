@@ -11,6 +11,7 @@
     "amfe-flexible": "^2.2.1",
     "autoprefixer": "^10.3.4",
     "element3": "0.0.40",
+    "loadash": "^1.0.0",
     "postcss": "^8.3.6",
     "vue": "^3.2.6",
     "vue-router": "^4.0.11",
